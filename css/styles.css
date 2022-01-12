@@ -102,31 +102,22 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .hero {
   background-color: var(--primary-text-color);
-}
-.button {
-  background-color: var(--accent-text-color);
-  color: #f5f4fa;
-
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.9;
-  display: flex;
-  letter-spacing: 0.06em;
-  text-align: center;
-}
-.button:hover,
-.button:focus {
-  background-color: #188ce8;
+  margin-bottom: 94px;
 }
 
-/* Section-title */
+/* Section */
 .section-title {
   color: var(--primary-text-color);
 
+  margin-top: 0px;
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -145,6 +136,20 @@ a {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.section-title-second{
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-top: 188px;
+  margin-bottom: 50px;
 }
 
 /* Section-title-three */
@@ -162,7 +167,10 @@ a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-}
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
 
 /* Paragraph */
 .paragraph {
@@ -189,9 +197,39 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
-/* Button two */
+/* Button */
+.button {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
+  background-color: var(--accent-text-color);
+  color: #f5f4fa;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
+
+
 .button-two {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+
   background-color: #f5f4fa;
+
   font-weight: 500;
   font-size: 1.6;
   line-height: 26px;
@@ -215,3 +253,8 @@ a {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
