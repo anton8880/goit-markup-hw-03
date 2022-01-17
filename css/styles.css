@@ -18,9 +18,11 @@ a {
 
 .header {
   background-color: #ffffff;
+  border: 1px solid #ececec;
 }
 
 /* Portfolio */
+
 .head-two {
   color: var(--primary-text-color);
   font-weight: bold;
@@ -38,7 +40,18 @@ a {
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
+.portfolio {
+  display: flex;
+}
+.item-two + .item-two {
+  margin-left: 8px;
+}
 
+/* Main-nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 /* Logo */
 .logo {
   font-family: Raleway, sans-serif;
@@ -58,7 +71,19 @@ a {
 }
 
 /* Site-nav */
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+.item + .item {
+  margin-left: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -79,7 +104,14 @@ a {
 }
 
 /* Adress-nav */
+.cont-nav {
+  display: flex;
+}
 .cont-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -93,6 +125,12 @@ a {
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+}
+.cont-nav.item + .item {
+  margin-left: 50px;
+}
+.cont-nav.list {
+  margin-left: auto;
 }
 
 /* Hero */
@@ -261,6 +299,9 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
+}
+.container.main-nav {
+  height: 80px;
 }
 .p {
   font-weight: normal;
