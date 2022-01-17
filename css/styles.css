@@ -258,7 +258,8 @@ a {
   text-align: center;
 }
 .button:hover,
-.button:focus {
+.button:focus,
+.button:active {
   background-color: #188ce8;
 }
 .button-two {
@@ -283,7 +284,8 @@ a {
   color: var(--primary-text-color);
 }
 .button-two:hover,
-.button-two:focus {
+.button-two:focus,
+.button-two:active {
   background-color: var(--accent-text-color);
   color: #ffffff;
 }
