@@ -134,7 +134,6 @@ a {
 }
 
 /* Hero */
-
 .hero-title {
   color: #ffffff;
   font-weight: 900;
@@ -152,26 +151,58 @@ a {
   background-color: var(--primary-text-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 /* Section */
+
+.container.section {
+  display: flex;
+}
+.section-title + .section-title {
+  margin-left: 30px;
+}
+
 .section-title {
   color: var(--primary-text-color);
 
-  margin-top: 0px;
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 94px;
 }
 .section-color {
   background-color: #f5f4fa;
-  padding-top: 94px;
   padding-bottom: 94px;
+  margin-top: 94px;
 }
-
+/* Section-two */
+.images {
+  display: flex;
+}
+.item.images + .item.images {
+  margin-left: 30px;
+}
+/* Images */
+.images-one {
+  margin-left: 0px;
+  margin-right: 30px;
+}
+.images-two {
+  margin-left: 0px;
+  margin-right: 30px;
+}
+.images-three {
+  margin-left: 0px;
+  margin-right: 30px;
+}
+.images-four {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 /* Section-title-two */
 .section-title-two {
   color: var(--primary-text-color);
@@ -191,8 +222,8 @@ a {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 94px;
 
-  margin-top: 188px;
   margin-bottom: 50px;
 }
 
@@ -246,6 +277,8 @@ a {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
   background-color: var(--accent-text-color);
   color: #f5f4fa;
@@ -253,9 +286,7 @@ a {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
-  display: flex;
   letter-spacing: 0.06em;
-  text-align: center;
 }
 .button:hover,
 .button:focus,
@@ -305,11 +336,16 @@ a {
 .container.main-nav {
   height: 80px;
 }
+.container.two {
+  display: flex;
+}
+
 .p {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  width: 270px;
 
   margin-top: 0px;
   margin-bottom: 0px;
