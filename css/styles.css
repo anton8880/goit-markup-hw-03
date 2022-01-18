@@ -43,6 +43,16 @@ a {
 .portfolio {
   display: flex;
 }
+.portfolio-flex {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: teal;
+}
+.flex-element {
+  width: 370px;
+  background-color: tomato;
+}
+
 .item-two + .item-two {
   margin-left: 8px;
 }
@@ -60,6 +70,7 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .logo-web {
   color: #2196f3;
 }
@@ -260,7 +271,7 @@ a {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.add.adress-nav.link {
+.adress-nav.link {
   color: rgba(255, 255, 255, 0.6);
 }
 .direction {
