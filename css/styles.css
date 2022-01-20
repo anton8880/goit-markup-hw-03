@@ -32,6 +32,8 @@ a {
 
   margin-top: 20px;
   margin-bottom: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 .paragraph-two {
   color: var(--title-text-color);
@@ -39,10 +41,14 @@ a {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+
   margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 .portfolio {
   display: flex;
+  margin-left: 495px;
 }
 .portfolio-flex {
   display: flex;
@@ -63,6 +69,11 @@ a {
 .flex-element.margin {
   margin-top: 30px;
 }
+.flex-element.margin.w {
+  margin-bottom: 94px;
+}
+.item-two {
+}
 
 .item-two + .item-two {
   margin-left: 8px;
@@ -80,6 +91,8 @@ a {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .logo-web {
@@ -154,6 +167,9 @@ a {
 .cont-nav.list {
   margin-left: auto;
 }
+.cont-nav.list:last-child {
+  margin-right: ;
+}
 
 /* Hero */
 .hero-title {
@@ -170,7 +186,7 @@ a {
 }
 
 .hero {
-  background-color: var(--primary-text-color);
+  background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -227,18 +243,22 @@ a {
 .images-one {
   margin-left: 0px;
   margin-right: 30px;
+  margin-bottom: 0px;
 }
 .images-two {
   margin-left: 0px;
   margin-right: 30px;
+  margin-bottom: 0px;
 }
 .images-three {
   margin-left: 0px;
   margin-right: 30px;
+  margin-bottom: 0px;
 }
 .images-four {
   margin-left: 0px;
   margin-right: 0px;
+  margin-bottom: 0px;
 }
 /* Section-title-two */
 .section-title-two {
@@ -287,7 +307,7 @@ a {
   letter-spacing: 0.03em;
 
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 /* Footer */
 .footer {
@@ -298,8 +318,11 @@ a {
   padding-bottom: 60px;
   margin-top: 0px;
 }
-.adress-nav.link {
+.adress-link {
   color: rgba(255, 255, 255, 0.6);
+}
+.adress-nav {
+  padding-left: 0px;
 }
 .direction {
   color: #ffffff;
@@ -307,6 +330,8 @@ a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 9px;
 }
 /* Button */
 .button {
@@ -369,7 +394,7 @@ a {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 1170px;
 }
 .container.main-nav {
   height: 80px;
