@@ -39,6 +39,7 @@ a {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 .portfolio {
   display: flex;
@@ -46,11 +47,21 @@ a {
 .portfolio-flex {
   display: flex;
   flex-wrap: wrap;
-  background-color: teal;
+  padding-left: 0px;
+  margin-right: 30px;
+}
+.portfolio-flex:nth-last-child(3n) {
+  margin-right: 0px;
 }
 .flex-element {
-  width: 370px;
-  background-color: tomato;
+  display: inline-block;
+  width: 372px;
+  margin: 0 auto;
+  border: 1px solid #eeeeee;
+}
+
+.flex-element.margin {
+  margin-top: 30px;
 }
 
 .item-two + .item-two {
@@ -166,12 +177,26 @@ a {
 }
 
 /* Section */
+.bgc {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 270px;
+}
+.bgc + .bgc {
+  margin-left: 30px;
+}
 
 .container.section {
   display: flex;
+  padding-left: 0px;
 }
-.section-title + .section-title {
-  margin-left: 30px;
+.section-title {
+  margin-right: 30px;
+}
+.section-title:nth-last-child(3n) {
+  margin-right: 0px;
 }
 
 .section-title {
@@ -193,6 +218,7 @@ a {
 /* Section-two */
 .images {
   display: flex;
+  padding-left: 0px;
 }
 .item.images + .item.images {
   margin-left: 30px;
@@ -270,6 +296,7 @@ a {
 
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-top: 0px;
 }
 .adress-nav.link {
   color: rgba(255, 255, 255, 0.6);
@@ -349,6 +376,7 @@ a {
 }
 .container.two {
   display: flex;
+  padding-left: 0px;
 }
 
 .p {
@@ -360,4 +388,8 @@ a {
 
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-right: 30px;
+}
+.p:nth-last-child(3n) {
+  margin-right: 0px;
 }
