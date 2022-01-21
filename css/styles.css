@@ -49,6 +49,7 @@ a {
 .portfolio {
   display: flex;
   padding-left: 0px;
+  justify-content: center;
 }
 
 .portfolio-flex {
