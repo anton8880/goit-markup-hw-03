@@ -114,6 +114,7 @@ a {
   margin-left: 93px;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 0px;
 }
 .item + .item {
   margin-left: 50px;
@@ -142,14 +143,8 @@ a {
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
-.site-nav {
-  padding-left: 0px;
-}
 
 /* Adress-nav */
-.cont-nav {
-  display: flex;
-}
 .cont-nav .link {
   display: block;
   padding-top: 32px;
@@ -172,12 +167,20 @@ a {
 .cont-nav.item + .item {
   margin-left: 50px;
 }
-.cont-nav.list {
+.cont-nav {
   display: flex;
-  margin-left: auto;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.cont-nav.list {
+  margin-left: 0px;
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  /* display: flex; */
+  align-items: center;
 }
 .cont-nav.list:last-child {
   margin-right: ;
@@ -218,16 +221,19 @@ a {
 .section-li {
   margin-right: 30px;
 }
-.section-li:nth-child(3n) {
+.section-li:nth-child(4n) {
   margin-right: 0px;
 }
 
 .section-one {
   display: flex;
   padding-left: 0px;
-  padding-top: 90px;
+  padding-top: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.section-padding {
+  padding-top: 94px;
 }
 
 .section-title {
@@ -244,7 +250,7 @@ a {
 .section-color {
   background-color: #f5f4fa;
   padding-bottom: 94px;
-  margin-top: 94px;
+  margin-top: 0px;
   padding-top: 94px;
 }
 /* Section-two */
@@ -278,6 +284,10 @@ a {
   margin-right: 0px;
   margin-bottom: 0px;
 }
+.div {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /* Section-title-two */
 .section-title-two {
   color: var(--primary-text-color);
@@ -291,6 +301,7 @@ a {
 }
 .section-works {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-title-second {
@@ -313,9 +324,8 @@ a {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-
-  margin-top: 45px;
   margin-bottom: 10px;
+  margin-top: 0px;
 }
 /* Paragraph */
 .paragraph {
@@ -328,7 +338,7 @@ a {
   letter-spacing: 0.03em;
 
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 0[x];
 }
 /* Footer */
 .footer {
@@ -342,8 +352,14 @@ a {
 .adress-link {
   color: rgba(255, 255, 255, 0.6);
 }
+
+.margin {
+  margin-bottom: 9px;
+}
 .adress-nav {
   padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .direction {
   color: #ffffff;
@@ -351,7 +367,7 @@ a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom: 9px;
 }
 /* Button */
@@ -422,8 +438,7 @@ a {
   padding-left: 15px;
   padding-right: 15px;
 }
-
-.container.two {
+.two {
   display: flex;
   padding-left: 0px;
   margin-top: 0px;
